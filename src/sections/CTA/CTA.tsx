@@ -5,7 +5,7 @@ export function CTA() {
         <h2 className="font-serif text-3xl text-white md:text-4xl mb-6">
           Pronta para cuidar da sua saúde emocional?
         </h2>
-        <p className="opacity-90 mb-10 ">
+        <p className="opacity-90 mb-10">
           Fale comigo no WhatsApp e agende sua primeira sessão.
         </p>
 
