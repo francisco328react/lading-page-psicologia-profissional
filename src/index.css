@@ -5,6 +5,7 @@
     --text-secondary: "#F5F3EF",
     --text-accent: "#8B5E3C",
     --text-muted: "#6B7280",
+    --color-purple-400: oklch(71.4% 0.203 305.504),
 
     --font-sans: ["Inter", "sans-serif"],
     --font-serif: ["Playfair Display", "serif"],

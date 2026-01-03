@@ -16,7 +16,7 @@ export function Hero() {
           <a
             href="https://wa.me/qr/GVJTH2Z3EEKEJ1"
             target="_blank"
-            className="inline-block bg-primary text-white px-8 py-4 rounded-full font-medium hover:opacity-90 transition"
+            className="inline-block bg-purple-400 px-8 py-4 rounded-full font-medium hover:opacity-90 bg-purple-500 transition"
           >
             Falar com a psicóloga
           </a>
