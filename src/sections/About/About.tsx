@@ -1,7 +1,20 @@
+import perfilBia2 from '../../assets/perfil-bia-2.png'
+
 export function About() {
   return (
     <section id="sobre" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+        <div className="flex justify-center">
+          <img
+            src={perfilBia2}
+            alt="Beatriz Silveira Psicóloga"
+            className="
+              w-[260px] sm:w-[320px] md:w-[360px]
+              rounded-3xl shadow-xl object-cover
+            "
+          />
+        </div>
 
         <div className="space-y-6">
           <h2 className="font-serif text-3xl md:text-4xl text-primary">
@@ -29,7 +42,6 @@ export function About() {
           </ul>
         </div>
 
-        <div className="h-[420px] rounded-3xl bg-secondary shadow-inner" />
       </div>
     </section>
   );

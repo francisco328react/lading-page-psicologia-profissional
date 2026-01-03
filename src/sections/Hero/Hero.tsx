@@ -1,3 +1,5 @@
+import perfilBia from '../../assets/perfil-bia.png'
+
 export function Hero() {
   return (
     <section className="min-h-screen pt-32 bg-secondary flex items-center">
@@ -22,8 +24,17 @@ export function Hero() {
           </a>
         </div>
 
-        <div className="hidden md:block">
-          <div className="w-full h-[420px] rounded-3xl bg-white shadow-xl" />
+        <div className="relative flex justify-center">
+          <img
+            src={perfilBia}
+            alt="Psicóloga Beatriz Silveira"
+            className="
+              w-[280px] sm:w-[340px] md:w-[380px]
+              rounded-3xl shadow-2xl
+              object-cover
+            "
+          />
+          <div className="absolute -inset-4 rounded-3xl bg-primary/10 -z-10" />
         </div>
 
       </div>
