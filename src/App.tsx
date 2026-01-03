@@ -5,6 +5,8 @@ import { Services } from "./sections/Services/Services";
 import { Method } from "./sections/Method/Method";
 import { Testimonials } from "./sections/Testimonials/Testimonials";
 import { FAQ } from "./sections/FAQ/FAQ";
+import { CTA } from "./sections/CTA/CTA";
+import { Footer } from "./sections/Footer/Footer";
 
 export function App() {
   return (
@@ -16,6 +18,8 @@ export function App() {
       <Method />
       <Testimonials />
       <FAQ />
+      <CTA />
+      <Footer />
     </div>
   );
 }
