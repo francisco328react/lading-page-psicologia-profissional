@@ -10,7 +10,7 @@ export function Hero() {
 
           <p className="text-muted mb-8">
             Atendimento com acolhimento, escuta ativa e ética profissional.
-            Psicóloga Clínica e Social — CRP 20/11.925.
+            Psicóloga Clínica e Social.
           </p>
 
           <a
